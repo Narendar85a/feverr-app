@@ -1,0 +1,42 @@
+.messages {
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.messages-container {
+    width: 1400px;
+    padding: 50px 0px;
+}
+.msg {
+    display: flex;
+    justify-content: space-between;
+}
+.messages-table {
+    width: 100%;
+}
+.messages-table tr {
+    height: 50px;
+}
+.messages-table th {
+    text-align: left;
+}
+.messages-table td {
+    padding: 40px;
+}
+
+.msg-msg {
+    background-color: #1dbf730f;
+
+}
+.msg-link {
+    color: #555;
+    text-decoration: none;
+}
+.msg-msg button {
+    background-color: #1dbf73;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+

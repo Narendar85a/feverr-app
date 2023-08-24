@@ -1,0 +1,46 @@
+.mygigs {
+    display: flex;
+    justify-content: center;
+    color: #555;
+}
+.mygigs-container {
+    width: 1400px;
+    padding: 50px 0px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title button {
+    background-color: #1dbf73;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mygigs-table {
+    width: 100%;
+}
+.mygigs-table tr {
+    height: 50px;
+}
+.mygigs-table th {
+    text-align: left;
+}
+.mygigs-img {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+.del-logo {
+    width: 25px;
+}
+
+.mygigs-table tr:nth-child(even) {
+    background-color: #1dbf730f;
+}

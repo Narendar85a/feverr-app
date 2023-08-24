@@ -1,0 +1,45 @@
+.add{
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.add-container {
+    width: 1400px;
+    padding: 50px 0px;
+}
+.add-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.sections label {
+    font-size: 18px;
+}
+
+.info1 , .info2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.sections
+input,
+select,
+textarea {
+  padding: 20px;
+}
+
+.info1 button {
+  background-color: #1dbf73;
+  cursor: pointer;
+  padding: 20px;
+  color:white;
+  border: none;
+  font-size: 18px;
+}

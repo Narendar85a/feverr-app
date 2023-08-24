@@ -1,0 +1,148 @@
+.features {
+    background-color: #aef0cf;
+    justify-content: center;
+    padding: 100px 0px;
+    display: flex;
+    height: 500px;
+
+}
+.check {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.item1 {
+    gap: 5px;
+    width: 600px;
+  
+}
+.item1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-weight: 500; 
+    color: #666;
+}
+.item1  p {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+video {
+    width:650px ;
+}
+
+
+/* explore css */
+
+.explore {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.explore-container {
+    width: 1400px;
+}
+
+.explore-container h1 {
+    color: #555;
+    font-size: 40px; 
+}
+
+.items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.items-item {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.items-item img {
+    width: 50px;
+    height: 50px;
+}
+ .line {
+    width: 50px;
+    height: 2px;
+    text-align: center;
+    transition: all .3s ease;
+ }
+
+
+ /* liverr nusiness css */
+
+ .liverr-business {
+    background-color: rgb(8, 8, 50);
+    color: white;
+ }
+
+ .business-container {
+    width: 1400px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    line-height: 28px;
+ }
+ 
+ .team {
+    word-spacing: 2px;
+    padding-left: 40px;
+    width: 600px;
+ }
+
+ .team h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.team p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sight {
+    display: flex;
+    align-items: center;
+    font-weight: 500; 
+    color: #666;
+    font-size: 15px;
+
+}
+
+.btn-btn {
+    padding-top: 30px;
+}
+.btn-btn button {
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+}
+
+
+.team-member img {
+    width: 700px;
+    height: 500px;
+    padding-left: 70px;
+
+}
+ 
